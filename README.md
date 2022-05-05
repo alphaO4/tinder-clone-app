@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## [Live Demo of Tinder clone app](https://tinder-clone-69e7a.web.app/)
+## [Live Demo of Tinder clone app](https://kinder.cf)
 
 ## Process of developing intro
 
