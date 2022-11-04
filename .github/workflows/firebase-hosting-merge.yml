@@ -19,7 +19,7 @@ jobs:
           args: deploy
         env:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          FIREBASE_TOKEN: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
+          GCP_SA_KEY: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           channelId: live
           PROJECT_ID: tinder-clone-theatre
           PROJECT_PATH: /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/
