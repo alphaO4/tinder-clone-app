@@ -22,4 +22,4 @@ jobs:
           FIREBASE_TOKEN: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           channelId: live
           PROJECT_ID: tinder-clone-theatre
-          PROJECT_PATH: /tinder-clone-app/tinder-clone-app/tinder-clone/
+          PROJECT_PATH: ./tinder-clone-app/tinder-clone/
