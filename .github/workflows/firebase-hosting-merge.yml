@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: run npm
+      - name: npm install 
+        run: npm --prefix /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/ install
+      - name: npm build
         run: npm --prefix /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/ run build 
       - name: GitHub Action for Firebase
         uses: w9jds/firebase-action@v11.9.0
