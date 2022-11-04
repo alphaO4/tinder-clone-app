@@ -21,5 +21,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           GCP_SA_KEY: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           channelId: live
-          PROJECT_ID: tinder-clone-theatre
+          PROJECT_ID: tinder-clone-theater
           PROJECT_PATH: /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/
