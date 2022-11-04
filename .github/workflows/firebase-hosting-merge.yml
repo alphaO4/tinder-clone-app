@@ -13,7 +13,8 @@ jobs:
       - uses: actions/checkout@v2
       #- run: npm i --prefix /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/package.json
       #- run: npm run build --prefix /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/package.json
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - uses: w9jds/firebase-action@v11.9.0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
