@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: run npm
-        run: npm --prefix /tinder-clone/ run build 
+        run: npm --prefix /home/runner/work/tinder-clone-app/tinder-clone-app/tinder-clone/ run build 
       - name: GitHub Action for Firebase
         uses: w9jds/firebase-action@v11.9.0
         with:
