@@ -70,6 +70,7 @@ def identify_gender(path, files):
 def add_to_json(path, files, fake):
     json_file = "E:/Github/tinder-clone-app/Fake people/fake_people.json"
     input_for_json_file = []
+    files = [f for f in os.listdir(path) if f.endswith(".jpg")]
     # loop through all the files
     try:
         os.remove(json_file)
