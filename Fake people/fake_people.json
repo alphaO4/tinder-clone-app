@@ -1,22 +1,38 @@
 [
     {
-        "name": "Mr. Peter Jones",
+        "name": "Jeffrey Gamble",
         "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-0.jpg"
     },
     {
-        "name": "Jeffrey Bryant",
+        "name": "Nicholas Mccann",
+        "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-1.jpg"
+    },
+    {
+        "name": "Anthony Miranda",
+        "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-18.jpg"
+    },
+    {
+        "name": "Allen Silva",
+        "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-19.jpg"
+    },
+    {
+        "name": "Jeremy Mendoza",
+        "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-3.jpg"
+    },
+    {
+        "name": "Isaiah Miller",
+        "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-4.jpg"
+    },
+    {
+        "name": "Matthew Perkins",
         "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-6.jpg"
     },
     {
-        "name": "Kenneth Thompson PhD",
+        "name": "Randy Cox",
         "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-7.jpg"
     },
     {
-        "name": "Gregory Yoder",
+        "name": "Jeremy Hess",
         "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-8.jpg"
-    },
-    {
-        "name": "Christopher Green",
-        "imgUrl": "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/fake_people-9.jpg"
     }
 ]

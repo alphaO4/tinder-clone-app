@@ -59,10 +59,6 @@ def identify_gender(path, files):
         if file.find ("delete") != -1:
             # delete the file
             os.remove(full_path)
-            females += 1
-
-        else:
-            males += 1
 
     print("Saved " + str(males) + " Males and ignored " + str(females) + " Females\n")
 
