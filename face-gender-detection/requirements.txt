@@ -1,2 +1,7 @@
 opencv-python
 numpy
+Faker
+json
+time
+sys
+os
