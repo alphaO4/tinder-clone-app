@@ -64,6 +64,7 @@ def identify_gender(path, files):
 
 #add fake names and the expected imgURL to a json file
 def add_to_json(path, files, fake):
+    imgURL = "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/"
     json_file = "E:/Github/tinder-clone-app/Fake people/fake_people.json"
     input_for_json_file = []
     files = [f for f in os.listdir(path) if f.endswith(".jpg")]
@@ -78,14 +79,13 @@ def add_to_json(path, files, fake):
     for file in files:
         #since we are going to upload to Github we can predict the imgURL
         # the imgURL will have the format "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/"
-        imgURL = "https://raw.githubusercontent.com/alphaO4/tinder-clone-app/master/Fake%20people/"
         #creat fake male name
         name = fake.name_male()
         # add the imgURL to the name
-        imgURL = imgURL + file
+        imgURL_file = imgURL + file
         # add the name and the imgURL to a json file
-        input_for_json_file.append({"name": name, "imgUrl": imgURL})
-        print("Added Name: " + name + "and URL: " + imgURL + " to fake_people.json\n")
+        input_for_json_file.append({"name": name, "imgUrl": imgURL_file})
+        print("Added Name: " + name + "and URL: " + imgURL_file + " to fake_people.json\n")
     
     with open(json_file, "a") as file:
         json.dump(input_for_json_file, file)
